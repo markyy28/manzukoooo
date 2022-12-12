@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADP5PoAVFugAGyBkwCjrvMAobXtAIub6ABww4kAb3OoAJiY3wAxRWkA3eb3AOvr2QCUofEAlKL0AGNoowARDQwAyOD4AJum9wBvxdcAOlR7ANLj+ADS4v4Ao9HEAFldngBplYgAGiloAEZceACRne8AlZaTAJ+nxQCQn/UAWmCwAPv9/QDP1N4A/f39AGFopADF2vkAlKj1AF5nswDj7v4AmKb4AB0pKgCapfUAm6fyAJqp+ACfqe8AzOD5AFdcigAeKjYAzOP5AA8WHwARFyIAExciACpFawAXPUIAY5ehAI6f9gATHzEANUV0AJSj+QDC2/0Al6TzAJam+QCYpvkAmqfzADxRawCdyroAnqj2AFNYmgAuISUA8vLwALm1sQBWWZ0Aoq/5ANXj+gCYqMEAWF+mAFlgqQCOnvQAQFQ2AP369gCVpt8AWIZ5APz8/ADs7dkA2NjIAMXW+ADF3PgAl6j3AGJpsgDJ3/gAmqj3AJuo9wDV3O8A0d71AMvj+wDN4vgAk53FAO/z9AAcRhcAKycmAIad6QAlLjIAeaqcAHeunwDX6PgAqdLKAGNilQCTnfIAq6unAF9pmABcY6oAe93aAMfe7QBdin0Al6X4AJin9QCcpe8A0N7tAMzg8wDQ3fMA19vtANLe9gAqHzMAZm22AGdttgDx9PgAVl+fALjQ+gC40f0Avrm2AN3p8wAkL1EA1tfHABYgLgBFc2cAmJ3zAF9rqACXpPYAmKL5AJik9gCWp/YAmKf2AJeo+QCap/YASnttAJio+QBNVqAAJ0lOAMzf+gCcqvYAnar2AO7y8wCcrPwA1d30ANTg9ADf398ApLHwAI+o1gCq1MkAXWOsAJCm9AAACi0AFiU1AJak9wCdqeIAlqf3AJel+gDI3PsAHigsAF9wrwDs8fEAWn2pAMrh+ACcp/cAssn5AJ2s9ADM4vsAKkFbAJKfxQBUXKEAKDd8ALbL/wAwKSYAj5zpABUZJAAgJF8AvdP8AF5epwBaYK0AkqP1AP/7/QDD2fwAlaX7AJem9QCWpfsAzNnzAJan+ADJ3vkAmKj7AMve+QDJ4fkAe4ayACszcQAnQWUAz+T5AGtxqgBbYagAkKD2AJOj9gDG2/EAyt3uAFJ+rgCXqfYAmaf5AJum9gCbp/kAy+H6AM7g9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuTAvZHtdm5p2enlFt2szMjQXRGwI0gIdXgp4iLwHoDmTtB/HHn8OYbPOI3OkTVm9Ac87wxtMWq3aEImLkJnLJgF9Po48yS7ZXy7IGZA/bzhIikMNr4BXlcYknrak13xOIcKuSYEVqJUuwCe7ddc9S6OnKJZicIMuMX4GYiuuQDWsZbWlYk+rAM2YY0Y91gXMQRoqXGlt07HZdxwUvnQJspycW3PZsEq42GAoyiUE1BNHgqE+0HFRwW4RqnOQDLo6VYWGly2E1dai1tZc2JRqn1APN8SdKliPKNbWA1YpQhYgImY22HOP1o+SLNYSqWdoUyALVL+MxY3FptEYclKRhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+    rel="icon" type="image/x-icon" />
+
+
+  <title>Checkout</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: 'Calibri';
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+
+
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+h2{
+  text-align: center;
+  font-family: 'Times New Roman';
+  color: #0D701D;
+  font-weight: bold;
+}
+p{
+  text-align: center;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>MANZUKO CHECKOUT FORM</h2>
+<p>Please fill out the form for billing process. Thank you!</p>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your fullname">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Enter your address">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Entter your state">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="Enter your zipcode">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Enter your card name">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="Enter card number">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Enter the month">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="Enter the year">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
